@@ -1,5 +1,7 @@
 package com.food.ordering.system.domain.event;
 
-public interface DomainEvent<T> {
+import java.io.Serializable;
+
+public interface DomainEvent<T> extends Serializable {
 
 }
