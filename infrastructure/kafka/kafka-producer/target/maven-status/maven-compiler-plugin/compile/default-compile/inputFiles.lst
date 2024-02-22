@@ -1,5 +1,6 @@
 C:\Users\adity\my-space\workstation\workspaces\microservice-design-pattern-projects\food-ordering-system\infrastructure\kafka\kafka-producer\src\main\java\com\food\ordering\system\kafka\producer\service\impl\KafkaProducerStringImpl.java
 C:\Users\adity\my-space\workstation\workspaces\microservice-design-pattern-projects\food-ordering-system\infrastructure\kafka\kafka-producer\src\main\java\com\food\ordering\system\kafka\producer\service\KafkaProducer.java
+C:\Users\adity\my-space\workstation\workspaces\microservice-design-pattern-projects\food-ordering-system\infrastructure\kafka\kafka-producer\src\main\java\com\food\ordering\system\kafka\producer\KafkaMessageHelper.java
 C:\Users\adity\my-space\workstation\workspaces\microservice-design-pattern-projects\food-ordering-system\infrastructure\kafka\kafka-producer\src\main\java\com\food\ordering\system\kafka\producer\service\impl\KafkaProducerImpl.java
 C:\Users\adity\my-space\workstation\workspaces\microservice-design-pattern-projects\food-ordering-system\infrastructure\kafka\kafka-producer\src\main\java\com\food\ordering\system\Main.java
 C:\Users\adity\my-space\workstation\workspaces\microservice-design-pattern-projects\food-ordering-system\infrastructure\kafka\kafka-producer\src\main\java\com\food\ordering\system\kafka\producer\exception\KafkaProducerException.java

@@ -1,4 +1,5 @@
 com\food\ordering\system\domain\event\DomainEvent.class
+com\food\ordering\system\domain\DomainConstants.class
 com\food\ordering\system\domain\valueObject\Money.class
 com\food\ordering\system\domain\valueObject\BaseId.class
 com\food\ordering\system\domain\valueObject\CustomerId.class
@@ -8,8 +9,9 @@ com\food\ordering\system\domain\valueObject\ProductId.class
 com\food\ordering\system\domain\exception\DomainException.class
 com\food\ordering\system\domain\valueObject\OrderStatus.class
 com\food\ordering\system\domain\entity\BaseEntity.class
+com\food\ordering\system\domain\valueObject\PaymentOrderStatus.class
+com\food\ordering\system\domain\valueObject\RestaurantOrderStatus.class
 com\food\ordering\system\domain\valueObject\OrderId.class
 com\food\ordering\system\domain\valueObject\RestaurantId.class
-com\food\ordering\system\Main.class
 com\food\ordering\system\domain\event\publisher\DomainEventPublisher.class
 com\food\ordering\system\domain\valueObject\OrderApprovalStatus.class
