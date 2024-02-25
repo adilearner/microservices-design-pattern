@@ -50,6 +50,7 @@ public class OrderMessagingDataMapper {
                 .setId(UUID.randomUUID().toString())
                 .setSagaId("")
                 .setOrderId(order.getId().getValue().toString())
+                .setRestaurantId(order.getRestaurantId().getValue().toString())
                 .setRestaurantOrderStatus(RestaurantOrderStatus.valueOf(order.getOrderStatus().name()))
                 .setProducts(order.getItems().stream().map(orderItem-> Product.newBuilder()
                         .setId(orderItem.getProduct().getId().getValue().toString())
