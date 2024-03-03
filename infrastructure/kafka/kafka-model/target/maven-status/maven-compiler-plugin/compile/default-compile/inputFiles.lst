@@ -1,4 +1,5 @@
 C:\Users\adity\my-space\workstation\workspaces\microservice-design-pattern-projects\food-ordering-system\infrastructure\kafka\kafka-model\src\main\java\com\food\ordering\system\kafka\order\avro\model\RestaurantOrderStatus.java
+C:\Users\adity\my-space\workstation\workspaces\microservice-design-pattern-projects\food-ordering-system\infrastructure\kafka\kafka-model\src\main\java\com\food\ordering\system\kafka\order\avro\model\CustomerAvroModel.java
 C:\Users\adity\my-space\workstation\workspaces\microservice-design-pattern-projects\food-ordering-system\infrastructure\kafka\kafka-model\src\main\java\com\food\ordering\system\kafka\order\avro\model\OrderApprovalStatus.java
 C:\Users\adity\my-space\workstation\workspaces\microservice-design-pattern-projects\food-ordering-system\infrastructure\kafka\kafka-model\src\main\java\com\food\ordering\system\kafka\order\avro\model\PaymentResponseAvroModel.java
 C:\Users\adity\my-space\workstation\workspaces\microservice-design-pattern-projects\food-ordering-system\infrastructure\kafka\kafka-model\src\main\java\com\food\ordering\system\kafka\order\avro\model\PaymentStatus.java

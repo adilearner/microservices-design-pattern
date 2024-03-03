@@ -15,5 +15,4 @@ com\food\ordering\system\payment\service\domain\valueobject\CreditHistoryId.clas
 com\food\ordering\system\payment\service\domain\entity\CreditHistory.class
 com\food\ordering\system\payment\service\domain\event\PaymentCompletedEvent.class
 com\food\ordering\system\payment\service\domain\exception\PaymentDomainException.class
-com\food\ordering\system\Main.class
 com\food\ordering\system\payment\service\domain\PaymentDomainServiceImpl.class

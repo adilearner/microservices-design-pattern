@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/3.1.4/src/main/resources" charset="UTF-8" />
+    <file url="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/3.1.5/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common/common-application/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common/common-dataaccess/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common/common-domain/src/main/java" charset="UTF-8" />
@@ -18,6 +19,7 @@
     <file url="file://$PROJECT_DIR$/infrastructure/kafka/kafka-producer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/infrastructure/kafka/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/infrastructure/kafka/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/infrastructure/outbox/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/infrastructure/saga/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/infrastructure/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/infrastructure/src/main/resources" charset="UTF-8" />
@@ -33,6 +35,8 @@
     <file url="file://$PROJECT_DIR$/order-service/order-container/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/order-service/order-data-access/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/order-service/order-data-access/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-service/order-dataaccess/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-service/order-dataaccess/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java" charset="UTF-8" />

@@ -9,17 +9,9 @@ import java.util.List;
 
 public class PaymentCancelledEvent extends PaymentEvent{
 
-    private final DomainEventPublisher<PaymentCancelledEvent> paymentCancelledEventDomainEventPublisher;
     public PaymentCancelledEvent(Payment payment,
-                                 ZonedDateTime createdAt,
-                                 DomainEventPublisher<PaymentCancelledEvent> paymentCancelledEventDomainEventPublisher) {
+                                 ZonedDateTime createdAt) {
         super(payment, createdAt, Collections.emptyList());
-        this.paymentCancelledEventDomainEventPublisher = paymentCancelledEventDomainEventPublisher;
         //Not sending failureMessage because failureMessages will only be needed with failed payments.
-    }
-
-    @Override
-    public void fire(){
-        paymentCancelledEventDomainEventPublisher.publish(this);
     }
 }

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+  <classpathentry kind="src" path="src/test/java" output="target/test-classes" including="**/*.java"/>
+  <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
+  <classpathentry kind="src" path="src/main/resources" excluding="**/*.java|**/application*.yml|**/application*.yaml|**/application*.properties"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/boot/spring-boot-starter/3.1.5/spring-boot-starter-3.1.5.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/boot/spring-boot/3.1.5/spring-boot-3.1.5.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-core/6.0.13/spring-core-6.0.13.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-jcl/6.0.13/spring-jcl-6.0.13.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-context/6.0.13/spring-context-6.0.13.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-aop/6.0.13/spring-aop-6.0.13.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-beans/6.0.13/spring-beans-6.0.13.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-expression/6.0.13/spring-expression-6.0.13.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/boot/spring-boot-autoconfigure/3.1.5/spring-boot-autoconfigure-3.1.5.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/boot/spring-boot-starter-logging/3.1.5/spring-boot-starter-logging-3.1.5.jar"/>
+  <classpathentry kind="var" path="M2_REPO/ch/qos/logback/logback-classic/1.4.11/logback-classic-1.4.11.jar"/>
+  <classpathentry kind="var" path="M2_REPO/ch/qos/logback/logback-core/1.4.11/logback-core-1.4.11.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/logging/log4j/log4j-to-slf4j/2.20.0/log4j-to-slf4j-2.20.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/slf4j/jul-to-slf4j/2.0.9/jul-to-slf4j-2.0.9.jar"/>
+  <classpathentry kind="var" path="M2_REPO/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"/>
+</classpath>

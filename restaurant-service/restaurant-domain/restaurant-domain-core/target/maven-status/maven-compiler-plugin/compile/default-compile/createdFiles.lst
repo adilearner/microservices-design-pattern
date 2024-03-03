@@ -13,5 +13,4 @@ com\food\ordering\system\restaurant\service\domain\entity\OrderApproval.class
 com\food\ordering\system\restaurant\service\domain\entity\OrderApproval$Builder.class
 com\food\ordering\system\restaurant\service\domain\event\OrderApprovalEvent.class
 com\food\ordering\system\restaurant\service\domain\entity\OrderDetail$Builder.class
-com\food\ordering\system\Main.class
 com\food\ordering\system\restaurant\service\domain\RestaurantDomainServiceImpl.class
