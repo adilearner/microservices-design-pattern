@@ -17,6 +17,7 @@ com\food\ordering\system\order\service\domain\OrderApplicationServiceImpl.class
 com\food\ordering\system\order\service\domain\dto\message\RestaurantApprovalResponse.class
 com\food\ordering\system\order\service\domain\outbox\model\payment\OrderPaymentOutboxMessage.class
 com\food\ordering\system\order\service\domain\OrderPaymentSaga$1.class
+com\food\ordering\system\order\service\domain\ports\input\message\listener\customer\CustomerMessageListener.class
 com\food\ordering\system\order\service\domain\OrderPaymentSaga.class
 com\food\ordering\system\order\service\domain\outbox\scheduler\payment\PaymentOutboxCleanerScheduler.class
 com\food\ordering\system\order\service\domain\ports\output\repository\RestaurantRepository.class
@@ -32,6 +33,7 @@ com\food\ordering\system\order\service\domain\OrderSagaHelper.class
 com\food\ordering\system\order\service\domain\OrderTrackCommandHandler.class
 com\food\ordering\system\order\service\domain\outbox\model\approval\OrderApprovalEventProduct.class
 com\food\ordering\system\order\service\domain\dto\message\RestaurantApprovalResponse$RestaurantApprovalResponseBuilder.class
+com\food\ordering\system\order\service\domain\CustomerMessageListenerImpl.class
 com\food\ordering\system\order\service\domain\OrderCreateHelper.class
 com\food\ordering\system\order\service\domain\outbox\model\payment\OrderPaymentEventPayload$OrderPaymentEventPayloadBuilder.class
 com\food\ordering\system\order\service\domain\RestaurantApprovalResponseMessageImpl.class

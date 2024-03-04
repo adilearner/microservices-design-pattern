@@ -14,4 +14,3 @@ com\food\ordering\system\kafka\order\avro\model\CustomerAvroModel$Builder.class
 com\food\ordering\system\kafka\order\avro\model\PaymentRequestAvroModel$Builder.class
 com\food\ordering\system\kafka\order\avro\model\RestaurantApprovalResponseAvroModel$Builder.class
 com\food\ordering\system\kafka\order\avro\model\PaymentStatus.class
-com\food\ordering\system\Main.class

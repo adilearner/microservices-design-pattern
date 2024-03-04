@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.food.ordering.system.order.service.domain.OrderPaymentSagaTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 7.184 s <<< FAILURE! - in com.food.ordering.system.order.service.domain.OrderPaymentSagaTest
-com.food.ordering.system.order.service.domain.OrderPaymentSagaTest.testDoublePaymentWithLatch  Time elapsed: 0.296 s  <<< ERROR!
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 7.211 s <<< FAILURE! - in com.food.ordering.system.order.service.domain.OrderPaymentSagaTest
+com.food.ordering.system.order.service.domain.OrderPaymentSagaTest.testDoublePaymentWithLatch  Time elapsed: 0.273 s  <<< ERROR!
 org.springframework.jdbc.datasource.init.ScriptStatementFailedException: 
 Failed to execute SQL script statement #4 of class path resource [sql/OrderPaymentSagaTestSetUp.sql]: insert into "order".payment_outbox(id, saga_id, created_at, type, payload, outbox_status, saga_status, order_status, version) values ('8904808e-286f-449b-9b56-b63ba8351cf2', '15a497c1-0f4b-4eff-b9f4-c402c8c07afa', current_timestamp, 'OrderProcessingSaga', '{"price": 100, "orderId": "ef471dac-ec22-43a7-a3f4-9d04195567a5", "createdAt": "2022-01-07T16:21:42.917756+01:00",
   "customerId": "d215b5f8-0249-4dc5-89a3-51fd148cfb41", "paymentOrderStatus": "PENDING"}', 'STARTED', 'STARTED', 'PENDING', 0)
@@ -93,7 +93,7 @@ Caused by: org.postgresql.util.PSQLException: ERROR: column "outbox_status" of r
 	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:261)
 	... 70 more
 
-com.food.ordering.system.order.service.domain.OrderPaymentSagaTest.testDoublePaymentWithThreads  Time elapsed: 0.015 s  <<< ERROR!
+com.food.ordering.system.order.service.domain.OrderPaymentSagaTest.testDoublePaymentWithThreads  Time elapsed: 0.017 s  <<< ERROR!
 org.springframework.jdbc.datasource.init.ScriptStatementFailedException: 
 Failed to execute SQL script statement #4 of class path resource [sql/OrderPaymentSagaTestSetUp.sql]: insert into "order".payment_outbox(id, saga_id, created_at, type, payload, outbox_status, saga_status, order_status, version) values ('8904808e-286f-449b-9b56-b63ba8351cf2', '15a497c1-0f4b-4eff-b9f4-c402c8c07afa', current_timestamp, 'OrderProcessingSaga', '{"price": 100, "orderId": "ef471dac-ec22-43a7-a3f4-9d04195567a5", "createdAt": "2022-01-07T16:21:42.917756+01:00",
   "customerId": "d215b5f8-0249-4dc5-89a3-51fd148cfb41", "paymentOrderStatus": "PENDING"}', 'STARTED', 'STARTED', 'PENDING', 0)
@@ -184,7 +184,7 @@ Caused by: org.postgresql.util.PSQLException: ERROR: column "outbox_status" of r
 	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:261)
 	... 70 more
 
-com.food.ordering.system.order.service.domain.OrderPaymentSagaTest.testDoublePayment  Time elapsed: 0.015 s  <<< ERROR!
+com.food.ordering.system.order.service.domain.OrderPaymentSagaTest.testDoublePayment  Time elapsed: 0.013 s  <<< ERROR!
 org.springframework.jdbc.datasource.init.ScriptStatementFailedException: 
 Failed to execute SQL script statement #4 of class path resource [sql/OrderPaymentSagaTestSetUp.sql]: insert into "order".payment_outbox(id, saga_id, created_at, type, payload, outbox_status, saga_status, order_status, version) values ('8904808e-286f-449b-9b56-b63ba8351cf2', '15a497c1-0f4b-4eff-b9f4-c402c8c07afa', current_timestamp, 'OrderProcessingSaga', '{"price": 100, "orderId": "ef471dac-ec22-43a7-a3f4-9d04195567a5", "createdAt": "2022-01-07T16:21:42.917756+01:00",
   "customerId": "d215b5f8-0249-4dc5-89a3-51fd148cfb41", "paymentOrderStatus": "PENDING"}', 'STARTED', 'STARTED', 'PENDING', 0)
